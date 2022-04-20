@@ -1,0 +1,38 @@
+let head = document.getElementById('h11');
+let title = document.getElementsByClassName('.title');
+// function getRandomColor() {
+//   var letters = '0123456789ABCDEF';
+//   var color = '#';
+//   for (var i = 0; i < 6; i++) {
+//     color += letters[Math.floor(Math.random() * 16)];
+//   }
+//   return color;
+// }
+
+
+head.addEventListener("mousemove", function( event ) {
+    // highlight the mouseover target
+    // event.target.style.color = "orange";
+    // console.log('hello');
+    head.innerText='ib';
+    head.style.fontSize = '300px';
+    head.style.textShadow='-6px 0px red'
+    // title.style.backgroundColor='#65000b';
+    // reset the color after a short delay
+  }, false);
+head.addEventListener("mouseout", function( event ) {
+    // highlight the mouseover target
+    // event.target.style.color = "orange";
+    // console.log('hello');
+    head.innerText='Welcome To Our Website';
+    head.style.fontSize = '40px';
+    head.style.textShadow='none';
+
+    
+    // reset the color after a short delay
+  }, false);
+console.log(head);
+
+// head.addEventListener('mousemove',function() {
+//   head.style.backgroundColor = getRandomColor();
+// })
