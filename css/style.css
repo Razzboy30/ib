@@ -418,7 +418,7 @@
         width: 100%;
     }
 }
-@media (max-width: 414px){
+@media (max-width: 672px){
     .title h1{
         padding: 0px;
     }
