@@ -1,5 +1,5 @@
 let head = document.getElementById('h11');
-let title = document.getElementsByClassName('.title');
+let title = document.querySelector('.title');
 // function getRandomColor() {
 //   var letters = '0123456789ABCDEF';
 //   var color = '#';
@@ -8,7 +8,7 @@ let title = document.getElementsByClassName('.title');
 //   }
 //   return color;
 // }
-
+console.log(title);
 
 head.addEventListener("mousemove", function( event ) {
     // highlight the mouseover target
@@ -31,7 +31,18 @@ head.addEventListener("mouseout", function( event ) {
     
     // reset the color after a short delay
   }, false);
-console.log(head);
+// title.addEventListener("mouseout", function( event ) {
+    // highlight the mouseover target
+    // event.target.style.color = "orange";
+    // console.log('hello');
+    // title.innerText='Welcome To Our Website';
+    // title.style.fontSize = '40px';
+    // head.style.textShadow='none';
+
+    
+    // reset the color after a short delay
+  // }, false);
+// console.log(head);
 
 // head.addEventListener('mousemove',function() {
 //   head.style.backgroundColor = getRandomColor();
