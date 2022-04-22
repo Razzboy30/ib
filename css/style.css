@@ -411,6 +411,9 @@
         flex-direction: column;/*hide the menu text only show icon upto screen width of 750px*/
         height: 100%;
     }
+    .pp{
+        margin-bottom: 30px;
+    }
 }
 @media (max-width: 706px){
     #l img{
